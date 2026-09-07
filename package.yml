@@ -1,0 +1,18 @@
+package: community.lazycat.app.vikunja
+version: 2.6.0
+name: Vikunja
+description: The task manager you actually own.
+min_os_version: 1.5.0
+author: go-vikunja
+license: AGPL-3.0
+homepage: https://github.com/go-vikunja/vikunja
+locales:
+  zh:
+    name: Vikunja
+    description: 真正属于你自己的任务管理器。
+  en:
+    name: Vikunja
+    description: The task manager you actually own.
+permissions:
+  required:
+    - net.internet
