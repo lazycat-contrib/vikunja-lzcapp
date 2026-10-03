@@ -3,11 +3,10 @@ application:
   upstreams:
     - location: /
       backend: http://vikunja:3456/
-
 services:
   vikunja:
-    # upstream: docker.io/vikunja/vikunja:2.6.0
-    image: docker.1ms.run/vikunja/vikunja:2.6.0
+    # upstream: docker.io/vikunja/vikunja:2.7.0
+    image: docker.1ms.run/vikunja/vikunja:2.7.0
     binds:
       - /lzcapp/var/files:/app/vikunja/files
       - /lzcapp/var/db:/db

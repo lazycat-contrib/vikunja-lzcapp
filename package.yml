@@ -1,5 +1,5 @@
 package: community.lazycat.app.vikunja
-version: 2.6.0
+version: 2.7.0
 name: Vikunja
 description: The task manager you actually own.
 min_os_version: 1.5.0
